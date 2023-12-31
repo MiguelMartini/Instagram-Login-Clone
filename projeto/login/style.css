@@ -68,9 +68,10 @@ body{
 }
 
 #login-form input[type="submit"]{
-    background-color: #5faaff;
+    background-color: #4cb5f9;
     color: #fff;
     margin-top: 15px;
+    border: none;
     border-radius: 10px;
     height: 35px;
     font-size: 13px;
@@ -135,7 +136,7 @@ body{
 }
 #forgot-pass a{
     text-decoration: none;
-    color: #373799;
+    color: #00376b;
 }
 /* register */
 #register-container{
@@ -152,7 +153,7 @@ body{
 }
 
 #register-container a {
-    color: #4a95f6;
+    color: #0095f6;
     font-weight: 500;
     text-decoration: none;
 }

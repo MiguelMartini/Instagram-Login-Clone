@@ -12,6 +12,7 @@ body{
     background-color: #fffdfd;
     display: flex;
     flex-direction: column;
+    overflow-x: hidden;
 }
 #main-container{
     display: flex;
@@ -47,16 +48,19 @@ body{
 /* Facebook login */
 #facebook-register{
     margin-bottom: 25px;
-    background-color: rgb(0, 149, 246);
+    background-color: #0095f6;
     display: block;
     font-size: 14px;
     padding: 9px 9px;
-    border: 1px solid #dbdbdb;
     border-radius: 8px;
     width: 268px;
     height: 40px;
     margin: 5px auto;
     margin-bottom: 35px;
+    cursor: pointer;
+}
+#facebook-register:hover{
+    background-color: #1877f2;
 }
 #facebook-register a{
     text-decoration: none;
@@ -67,7 +71,7 @@ body{
     font-weight: 500;
 }
 #facebook-register img{
-    width: 20px;
+    width: 17px;
     height: auto;
     margin-right: 8px;
 }
@@ -123,13 +127,13 @@ body{
 }
 #advice a{
     text-decoration: none;
-    color: #385185;
+    color: #0070b8;
 }
 /* submit */
 #register-form input[type="submit"]{
     margin-bottom: 40px;
     padding: 8px;
-    background-color: #76b6ff;
+    background-color: #4cb5f9;
     color: #fff;
     font-size: 14px;
     font-weight: bold;
@@ -142,13 +146,13 @@ body{
     border: 1px solid #dbdbdb;
     width: 350px;
     margin-top: 10px;
-    padding: 25px;
+    padding: 20px;
 }
 #login-container p{
     font-size: 14px;
 }
 #login-container a{
-    color: rgb(0, 149, 246);
+    color: #739ff6;
     font-weight: 500;
     text-decoration: none;
 }
@@ -160,7 +164,7 @@ body{
 }
 
 #get-app-container p{
-    margin: 20px 0;
+    margin: 12px 0;
     font-size: 13px;
 }
 #get-app-container a{
@@ -175,7 +179,7 @@ body{
 footer{
     text-align: center;
     width: 1000px;
-    margin: 20px auto;
+    margin: 30px auto;
     margin-top: auto;
     display: flex;
     flex-direction: column;
@@ -198,7 +202,7 @@ footer #footer-links{
 }
 
 #copyright{
-    margin-top: 10px;
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     gap: 20px;
